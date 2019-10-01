@@ -22,6 +22,7 @@
 1. [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 1. [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
 1. [Android判断当前是否在主线程](https://www.cnblogs.com/genggeng/p/7524948.html)
+1. [Android Intent 传递自定义对象](https://blog.csdn.net/LucasXu01/article/details/83786866)
 1. [android获取设备唯一标识完美解决方案](https://blog.csdn.net/aa1733519509/article/details/50053553)
 1. [android 6.0及以上动态权限的获取](https://blog.csdn.net/ygz111111/article/details/80281966)
 1. [安卓Q | 用户画像等功能受影响，Device ID禁用适配指南](https://msd.misuland.com/pd/3127746505234974860)
