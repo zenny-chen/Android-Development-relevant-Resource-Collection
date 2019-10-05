@@ -76,7 +76,7 @@
 1. [android6.0手机蓝牙与ble蓝牙模块通信](https://blog.csdn.net/y_15751004297/article/details/76559836)（发送数据部分搜索`sendDataThread`这个方法实现；接收数据部分搜索`mGattUpdateReceiver`中的`displayData`部分）
 1. [BLE中常用的UUID](https://blog.csdn.net/Smile_Qian/article/details/82084232)
 1. [Android Support v4、v7、v13和AndroidX的区别及应用场景](https://blog.csdn.net/csdn_aiyang/article/details/80859771)
-1. 适用于Android X支持库的常用类：`androidx.constraintlayout.widget.ConstraintLayout`，`androidx.appcompat.app.AppCompatActivity`，`androidx.annotation.NonNull`，`androidx.annotation.Nullable`。
+1. 适用于Android X支持库的常用类：`androidx.constraintlayout.widget.ConstraintLayout`，`androidx.appcompat.app.AppCompatActivity`，`androidx.appcompat.app.AlertDialog`，`androidx.annotation.NonNull`，`androidx.annotation.Nullable`。
 
 <br/>
 
