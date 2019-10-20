@@ -7,6 +7,7 @@
 1. [Google中国开发者网站](https://developers.google.cn/china/)
 1. [Android NDK示例代码](https://github.com/googlesamples/android-ndk/tree/android-mk)
 1. [Android Studio自带NDK的CMake](https://developer.android.google.cn/ndk/guides/cmake)
+1. [Android NDK ABI管理](https://developer.android.google.cn/ndk/guides/abis)
 1. [Android NDK 常见编译问题整理](http://www.liuxiao.org/2016/08/android-ndk-常见编译问题整理/)
 1. [Android NDK编译选项设置](http://www.aichengxu.com/android/11032333.htm)
 1. [\[原创\]编写Android.mk中的LOCAL_SRC_FILES的终极技巧](http://blog.ready4go.com/blog/2013/05/20/write-local-src-files-in-android-dot-mk-ultimate-skills/)
