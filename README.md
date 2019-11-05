@@ -33,6 +33,7 @@
 1. [Google Mobile Ads SDK for Android](https://developers.google.com/admob/android/quick-start)
 1. [常用的android弹出对话框](https://www.cnblogs.com/liudeyun/p/android_1.html)
 1. [Android开发——ListView的运用](https://blog.csdn.net/cnicfhnui/article/details/51356741)
+1. [Android – Sectioned Headers in ListViews](https://w2davids.wordpress.com/android-sectioned-headers-in-listviews/)
 1. [TextView设置部分文字大小、加粗、倾斜、颜色、背景、分行显示。](https://blog.csdn.net/joshua_love/article/details/53389338)
 1. [Android 应用开发（41）---EditText(输入框)详解](https://blog.csdn.net/zhangbijun1230/article/details/82284953)
 1. [针对Android环境交叉编译GLib](http://zwyuan.github.io/2016/07/17/cross-compile-glib-for-android/)
