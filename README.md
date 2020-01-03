@@ -16,6 +16,7 @@
 1. [Bringing Armv8.2 Instructions to Android Runtime](https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/bringing-armv8-2-instructions-to-android-runtime)
 1. [Runtime detection of CPU features on an ARMv8-A CPU](https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/runtime-detection-of-cpu-features-on-an-armv8-a-cpu)
 1. [Android中判断当前API的版本号](https://blog.csdn.net/wangsf1112/article/details/51545101)
+1. [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
 1. [掌握 Android 系统架构，看这一篇就够了！](https://www.toutiao.com/a6678854584921752078/)
 1. [安卓手机如何打开开发者模式进行usb调试](https://jingyan.baidu.com/album/14bd256e477577bb6d2612cc.html)
 1. [Android中关于LogCat的打印](https://zhidao.baidu.com/question/279075586.html)
