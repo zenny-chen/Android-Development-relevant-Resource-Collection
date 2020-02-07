@@ -23,6 +23,7 @@
 1. [Android性能优化](http://hukai.me/android-performance-patterns/)
 1. [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 1. [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
+1. [Android编程之各种布局的应用，开发安卓程序的基础](https://www.toutiao.com/i6437084589121864194/)
 1. [Android（国际化）多语言的实现和切换](https://blog.csdn.net/MakerCloud/article/details/83146600)
 1. [Android判断当前是否在主线程](https://www.cnblogs.com/genggeng/p/7524948.html)
 1. [Android Intent 传递自定义对象](https://blog.csdn.net/LucasXu01/article/details/83786866)
