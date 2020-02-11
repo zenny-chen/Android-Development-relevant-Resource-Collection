@@ -13,6 +13,7 @@
 1. [\[原创\]编写Android.mk中的LOCAL_SRC_FILES的终极技巧](http://blog.ready4go.com/blog/2013/05/20/write-local-src-files-in-android-dot-mk-ultimate-skills/)
 1. [cmake:设置编译选项的讲究(add_compile_options和CMAKE_CXX_FLAGS的区别)](https://blog.csdn.net/10km/article/details/51731959)
 1.  [NDK开发之<cpu-features.h模块功能>](https://www.cnblogs.com/alanfang/p/8944542.html)
+1. [Gradle骚操作合集](https://www.toutiao.com/a6792129885650289163/)
 1. [Bringing Armv8.2 Instructions to Android Runtime](https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/bringing-armv8-2-instructions-to-android-runtime)
 1. [Runtime detection of CPU features on an ARMv8-A CPU](https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/runtime-detection-of-cpu-features-on-an-armv8-a-cpu)
 1. [Android中判断当前API的版本号](https://blog.csdn.net/wangsf1112/article/details/51545101)
