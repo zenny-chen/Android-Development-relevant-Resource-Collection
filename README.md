@@ -5,6 +5,7 @@
 
 1. [Android version history](https://en.wikipedia.org/wiki/Android_version_history)
 1. [Google中国开发者网站](https://developers.google.cn/china/)
+1. [小天才开放平台文档](https://developer.okii.com/docs/develop/00-model.html)
 1. [Android NDK示例代码](https://github.com/googlesamples/android-ndk/tree/android-mk)
 1. [Android Studio自带NDK的CMake](https://developer.android.google.cn/ndk/guides/cmake)
 1. [Android NDK ABI管理](https://developer.android.google.cn/ndk/guides/abis)
