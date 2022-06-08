@@ -82,7 +82,7 @@ view.clearFocus()
 - 在Unity3D中生成定制的Gradle文件：点击File -> Build Settings... -> 选择Android平台，然后点击左下角的Player Settings，最后在右侧找到Publish Settings中可找到“Custom Gradle Template”，勾选上它就能生成`mainTemplate.gradle`，编辑它即可。
 - [用MediaPlayer+TextureView封装一个完美实现全屏、小窗口的视频播放器](https://www.jianshu.com/p/420f7b14d6f6)
 - [Android 简单定制一个视频播放器](https://blog.csdn.net/new_one_object/article/details/54839232)
-- [Androidmanifest里Activity配置中android:configChanges属性的使用](https://blog.csdn.net/lkk790470143/article/details/79345971)
+- [Android manifest里Activity配置中android:configChanges属性的使用](https://blog.csdn.net/lkk790470143/article/details/79345971)
 - [activity的横屏和竖屏设置](https://www.cnblogs.com/zhongyinghe/p/5289704.html)（android:screenOrientation属性：`landscape`是横向，`portrait`是纵向）
 - [android-如何获得当前正在运行的activity的相关信息](https://blog.csdn.net/centralperk/article/details/7269326)
 - [你必须弄懂的Intent Filter匹配规则](https://blog.csdn.net/mynameishuangshuai/article/details/51673273)
@@ -91,6 +91,15 @@ view.clearFocus()
 - [Android WebView 无法加载Https](https://www.jianshu.com/p/a7020518c111)
 - [Android-工作遭遇-URLConnection原生请求http和https忽略证书](https://blog.csdn.net/ci250454344/article/details/82871965)
 - [android 获取时间戳](https://www.jianshu.com/p/43dbc2e01376)
+- Android 获取设备开机时间:
+```java
+ public static String getSystemStartupTime() {
+        long time = System.currentTimeMillis() - SystemClock.elapsedRealtime();
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date d1 = new Date(time);
+        return format.format(d1);
+    }
+```
 - [Unity3D关于动态请求权限](https://docs.unity3d.com/Manual/android-manifest.html)
 - [关于Calling View methods on another thread than the UI thread的错误](https://blog.csdn.net/lx448593jp/article/details/51971467)
 - [Android反射机制实现与原理](https://www.cnblogs.com/wumingchen/p/5781844.html)
