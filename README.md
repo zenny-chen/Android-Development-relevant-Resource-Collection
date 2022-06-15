@@ -137,6 +137,22 @@ view.clearFocus()
 
 <br />
 
+## Android异步消息处理
+
+```kotlin
+import android.os.Handler
+import android.os.Looper
+
+        Handler(Looper.getMainLooper()).post {
+            // TODO: Implement your code...
+            if (someCondition) return@post
+
+            // Do other things...
+        }
+```
+
+<br />
+
 ## Android Studio中用gradle(Module:app)指定ABI filter：
 
 ```gradle
