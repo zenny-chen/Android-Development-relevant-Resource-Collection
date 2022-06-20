@@ -124,6 +124,23 @@ view.clearFocus()
 - 适用于Android X支持库的常用类：`androidx.constraintlayout.widget.ConstraintLayout`，`androidx.appcompat.app.AppCompatActivity`，`androidx.appcompat.app.AlertDialog`，`androidx.annotation.NonNull`，`androidx.annotation.Nullable`，`androidx.core.content.ContextCompat`，`androidx.core.app.ActivityCompat`。
 - [2020 年Android入门教程之 RelativeLayout布局 004](https://zhuanlan.zhihu.com/p/150600297)
 - [kotlin 构造函数、init、companion object用谁？](https://www.jianshu.com/p/e8c4ac3c8d87)
+- [Kotlin之Lambda表达式](https://www.jianshu.com/p/5880bebe4661)（Kotlin中，lambda **类型** 的形参声明中也可以带有参数名，比如：
+```kotlin
+    /**
+     * @param completion 这里completion的函数类型中就含有success这个形参名 
+     */
+    fun doAction(completion: (success: Boolean) -> Unit) {
+        completion(true)
+    }
+
+        // 简略调用doAction
+        doAction { Log.i(null, "Result: $it") }
+        // 详细调用doAction
+        doAction({ success: Boolean ->
+            Log.i(null, "Result: $success")
+        })
+```
+）
 - [Android 底层的进程间同步机制](https://www.toutiao.com/i6906734816255934980/)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
 - [Android利用ptrace实现Hook API](https://blog.csdn.net/u013234805/article/details/24796515)
