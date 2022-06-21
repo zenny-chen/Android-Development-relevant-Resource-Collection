@@ -24,6 +24,13 @@
 - [Runtime detection of CPU features on an ARMv8-A CPU](https://community.arm.com/developer/tools-software/oss-platforms/b/android-blog/posts/runtime-detection-of-cpu-features-on-an-armv8-a-cpu)
 - [How do I set the jvm target for android studio using gradle and kotlin?](https://stackoverflow.com/questions/54972087/how-do-i-set-the-jvm-target-for-android-studio-using-gradle-and-kotlin)
 - [Android中判断当前API的版本号](https://blog.csdn.net/wangsf1112/article/details/51545101)
+- [StructStat](https://developer.android.google.cn/reference/android/system/StructStat)（对应于Linux C语言中的：
+```c
+#include <sys/stat.h>
+
+struct stat;
+```
+）
 - [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
 - [掌握 Android 系统架构，看这一篇就够了！](https://www.toutiao.com/a6678854584921752078/)
 - [安卓手机如何打开开发者模式进行usb调试](https://jingyan.baidu.com/album/14bd256e477577bb6d2612cc.html)
@@ -45,6 +52,7 @@ resources.displayMetrics.density
 - [android获取设备唯一标识完美解决方案](https://blog.csdn.net/aa1733519509/article/details/50053553)
 - [android 6.0及以上动态权限的获取](https://blog.csdn.net/ygz111111/article/details/80281966)
 - [安卓Q | 用户画像等功能受影响，Device ID禁用适配指南](https://msd.misuland.com/pd/3127746505234974860)
+- [Android Q（10.0）上IMEI获取不到；Android Q（10.0）上OAID替代IMEI；OAID获取方式](https://blog.csdn.net/Kern_/article/details/107530583)
 - [扒一扒安卓渲染原理](https://blog.csdn.net/qq_34696203/article/details/105815654)
 - [Android App开发基础篇—数据存储(SP和文件)](https://blog.csdn.net/lyklykkk/article/details/56277569)
 - [Android OpenGL ES绘制位图字体](http://blog.csdn.net/jackone12347/article/details/7710990)
@@ -143,6 +151,7 @@ view.clearFocus()
 ```
 ）
 - [Android 底层的进程间同步机制](https://www.toutiao.com/i6906734816255934980/)
+- [Android API广告反作弊需求 Native层获取 bootMark奔溃解析](https://blog.csdn.net/hanshengjian/article/details/120483858)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
 - [Android利用ptrace实现Hook API](https://blog.csdn.net/u013234805/article/details/24796515)
 - [怎么让 Android 程序一直后台运行，像 QQ 一样不被杀死？](https://blog.csdn.net/gf771115/article/details/77457053)
