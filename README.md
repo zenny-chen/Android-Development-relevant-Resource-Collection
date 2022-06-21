@@ -88,6 +88,7 @@ view.clearFocus()
 - [你必须弄懂的Intent Filter匹配规则](https://blog.csdn.net/mynameishuangshuai/article/details/51673273)
 - [Android 上使用 iconfont 的一种便捷方案](https://www.cnblogs.com/dongweiq/p/5730212.html)
 - [android 使用浏览器打开指定页面](https://blog.csdn.net/bzlj2912009596/article/details/80673555)
+- [Android 8: Cleartext HTTP traffic not permitted](https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted)（Android 8之后使用HTTP做网络通信的设置）
 - [Android WebView 无法加载Https](https://www.jianshu.com/p/a7020518c111)
 - [Android-工作遭遇-URLConnection原生请求http和https忽略证书](https://blog.csdn.net/ci250454344/article/details/82871965)
 - [android 获取时间戳](https://www.jianshu.com/p/43dbc2e01376)
