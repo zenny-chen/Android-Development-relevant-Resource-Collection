@@ -125,7 +125,7 @@ view.clearFocus()
 - [BLE中常用的UUID](https://blog.csdn.net/Smile_Qian/article/details/82084232)
 - [使用Android Studio打包生成Jar包的方法(亲测可用)](https://blog.csdn.net/xiayiye5/article/details/79639044)（前半部分值得参考，后面用makeJar的部分在新版的Android Studio中不需要。我们先将当前工程设置为release模式，然后构建项目工程，最后直接在`app/build/intermediates/packaged-classes/release/`目录下就能找到`classes.jar`文件，也就是我们最终生成的jar包。）
 - [Android Studio中添加jar包的方法](https://blog.csdn.net/yushuangping/article/details/81873630)（直接看方法三）
-- Android Studio导入aar包的方法：首先将aar包放在 **`app/libs`** 目录下。然后在 **`build.gradle ( Module: app)`** 文件的 **`dependencies`** 下添加（比如）：**`implementation files('GDTSDK')`** 即可。
+- Android Studio导入aar包的方法：首先将aar包放在 **`app/libs`** 目录下。然后在 **`build.gradle (Module: app)`** 文件的 **`dependencies`** 下添加（比如）：**`implementation files('GDTSDK')`** 即可。这里面只需填写包名，而不必是完整的文件名……可利用Android Studio的语法智能感知填写即可。
 - [建立V7包库（Library）项目以供其他项目引](https://www.cnblogs.com/tonny-li/p/5048863.html)
 - 让Android Studio支持`android.support.design.widget.TabLayout`类：在build.gradle(Module: app)中的**dependencies**语句块中添加`implementation 'com.android.support:design:28.0.0'`。
 - [Android Support v4、v7、v13和AndroidX的区别及应用场景](https://blog.csdn.net/csdn_aiyang/article/details/80859771)
