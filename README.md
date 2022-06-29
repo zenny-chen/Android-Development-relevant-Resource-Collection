@@ -150,6 +150,33 @@ view.clearFocus()
         })
 ```
 ）
+- Kotlin中创建匿名对象的方式：
+```kotlin
+private interface MyTestInterface {
+    fun foo1()
+    fun foo2(a: Int): Int
+}
+
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        
+        val testObj = object: MyTestInterface {
+            override fun foo1() {
+                Log.i(null, "Hello, world!!\n")
+            }
+
+            override fun foo2(a: Int): Int {
+                return a + 1
+            }
+        }
+
+        testObj.foo1()
+        val data = testObj.foo2(10)
+        Log.i(null, "data = $data")
+    }
+}
+```
 - [Android 底层的进程间同步机制](https://www.toutiao.com/i6906734816255934980/)
 - [Android API广告反作弊需求 Native层获取 bootMark奔溃解析](https://blog.csdn.net/hanshengjian/article/details/120483858)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
