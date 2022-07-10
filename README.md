@@ -129,6 +129,7 @@ view.clearFocus()
 - 让Android Studio支持`android.support.design.widget.TabLayout`类：在build.gradle(Module: app)中的**dependencies**语句块中添加`implementation 'com.android.support:design:28.0.0'`。
 - [Android Support v4、v7、v13和AndroidX的区别及应用场景](https://blog.csdn.net/csdn_aiyang/article/details/80859771)
 - [AndroidStudio_安卓原生开发_v4v7升级到androidx方法](https://www.toutiao.com/i7040706218612097573/)
+- [新版Android Studio升级后将repositories的设置挪到了setting.gradle](http://events.jianshu.io/p/ee7c9889301a)
 - [Android App Bundle (Android新的应用发布格式)](https://blog.csdn.net/weixin_37730482/article/details/83501586)
 - 适用于Android X支持库的常用类：`androidx.constraintlayout.widget.ConstraintLayout`，`androidx.appcompat.app.AppCompatActivity`，`androidx.appcompat.app.AlertDialog`，`androidx.annotation.NonNull`，`androidx.annotation.Nullable`，`androidx.core.content.ContextCompat`，`androidx.core.app.ActivityCompat`。
 - [2020 年Android入门教程之 RelativeLayout布局 004](https://zhuanlan.zhihu.com/p/150600297)
