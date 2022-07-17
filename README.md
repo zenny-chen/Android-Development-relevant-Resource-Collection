@@ -39,6 +39,24 @@ struct stat;
 - [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 - [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
 - [Android 利用layoutParams代码动态布局空间位置](https://blog.csdn.net/a15838319826/article/details/70808933)
+- [Android获取屏幕宽高的三种方式](https://blog.csdn.net/lebulangzhen/article/details/120037671)
+- 获取当前屏幕的物理像素宽高：
+```kotlin
+    private fun getWidthHeight(): Pair<Int, Int> {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            val displayMetrics = mMainActivity?.resources?.displayMetrics
+            val pixelRatio = displayMetrics?.density ?: 0.0f
+
+            val windowMetrics = mMainActivity?.windowManager?.currentWindowMetrics ?: return Pair(0, 0)
+            return Pair(windowMetrics.bounds.width(), windowMetrics.bounds.height())
+        }
+        else {
+            val dm = DisplayMetrics()
+            mMainActivity?.windowManager?.defaultDisplay?.getRealMetrics(dm)
+            return Pair(dm.widthPixels, dm.heightPixels)
+        }
+    }
+```
 - 获取当前屏幕密度（density, dp）：
 ```kotlin
 resources.displayMetrics.density
