@@ -57,6 +57,12 @@ struct stat;
         }
     }
 ```
+- 获取不包含状态栏的屏幕宽高：
+```kotlin
+        val dm = DisplayMetrics()
+        val size = Point(0, 0)
+        windowManager.defaultDisplay.getSize(size)
+```
 - 获取当前屏幕密度（density, dp）：
 ```kotlin
 resources.displayMetrics.density
