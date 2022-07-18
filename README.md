@@ -147,6 +147,7 @@ view.clearFocus()
 - [Android 低功耗蓝牙的多设备连接与数据接收，简单实现](https://blog.csdn.net/geanwen/article/details/73648721)
 - [android6.0手机蓝牙与ble蓝牙模块通信](https://blog.csdn.net/y_15751004297/article/details/76559836)（发送数据部分搜索`sendDataThread`这个方法实现；接收数据部分搜索`mGattUpdateReceiver`中的`displayData`部分）
 - [BLE中常用的UUID](https://blog.csdn.net/Smile_Qian/article/details/82084232)
+- Android Studio将 **`app/src/main/shaders/`** 目录中所有的GLSL源文件进行编译为spv文件最后 **生成在** **`app/build/intermediates/assets/debug/mergeDebugAssets/shaders/`** 目录中。
 - [使用Android Studio打包生成Jar包的方法(亲测可用)](https://blog.csdn.net/xiayiye5/article/details/79639044)（前半部分值得参考，后面用makeJar的部分在新版的Android Studio中不需要。我们先将当前工程设置为release模式，然后构建项目工程，最后直接在`app/build/intermediates/packaged-classes/release/`目录下就能找到`classes.jar`文件，也就是我们最终生成的jar包。）
 - [Android Studio中添加jar包的方法](https://blog.csdn.net/yushuangping/article/details/81873630)（直接看方法三。另外对于最新版本的Android Studio，如果添加的是aar包，那么不需要选中包然后再右键选择Add As Library，因为aar包默认会加入到项目中。）
 - [建立V7包库（Library）项目以供其他项目引](https://www.cnblogs.com/tonny-li/p/5048863.html)
