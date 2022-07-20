@@ -111,6 +111,7 @@ view.clearFocus()
 ```
 - Android上将文本数据复制到剪贴板：
 ```kotlin
+            val logStr = "hello world message..."
             val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             val clipData = ClipData.newPlainText("vulkaninfo", logStr)
             clipboard.setPrimaryClip(clipData)
