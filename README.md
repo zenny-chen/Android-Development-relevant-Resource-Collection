@@ -38,6 +38,18 @@ struct stat;
 - [Android性能优化](http://hukai.me/android-performance-patterns/)
 - [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 - [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
+- Android异步消息处理：
+```kotlin
+import android.os.Handler
+import android.os.Looper
+
+        Handler(Looper.getMainLooper()).post {
+            // TODO: Implement your code...
+            if (someCondition) return@post
+
+            // Do other things...
+        }
+```
 - [Android 利用layoutParams代码动态布局空间位置](https://blog.csdn.net/a15838319826/article/details/70808933)
 - [Android获取屏幕宽高的三种方式](https://blog.csdn.net/lebulangzhen/article/details/120037671)
 - 获取当前屏幕的物理像素宽高：
@@ -96,6 +108,12 @@ view.clearFocus()
 // 关闭输入法
 (getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
     window.peekDecorView()?.windowToken, InputMethodManager.RESULT_UNCHANGED_SHOWN)
+```
+- Android上将文本数据复制到剪贴板：
+```kotlin
+            val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            val clipData = ClipData.newPlainText("vulkaninfo", logStr)
+            clipboard.setPrimaryClip(clipData)
 ```
 - [Android之点击空白处关闭软键盘](https://www.jianshu.com/p/8f4cfeee2caa)
 - [android如何给整个视图view圆角显示](https://blog.csdn.net/hesong1120/article/details/52005895)
@@ -214,22 +232,6 @@ class MainActivity : AppCompatActivity() {
 - Android Studio中用自带的NDK写C语言获得不同架构平台下的语法高亮：点击左侧边缘处的“Build Variants”，然后选择“Active ABI”，如果选用 **`arm64-v8a`**，则ARM64架构宏下的代码能正常显示高亮；如果选择 **`x86_64`**，则x64宏下的代码会正常显示语法高亮。
 - macOS下adb工具所在路径：`~/Library/Android/sdk/platform-tools/adb`
 - Windows 10下`adb.exe`所在路径：`%USERPROFILE%/AppData/Local/Android/Sdk/platform-tools`
-
-<br />
-
-## Android异步消息处理
-
-```kotlin
-import android.os.Handler
-import android.os.Looper
-
-        Handler(Looper.getMainLooper()).post {
-            // TODO: Implement your code...
-            if (someCondition) return@post
-
-            // Do other things...
-        }
-```
 
 <br />
 
