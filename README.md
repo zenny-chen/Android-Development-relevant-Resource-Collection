@@ -89,26 +89,6 @@ resources.displayMetrics.density
 - [android 6.0及以上动态权限的获取](https://blog.csdn.net/ygz111111/article/details/80281966)
 - [安卓Q | 用户画像等功能受影响，Device ID禁用适配指南](https://msd.misuland.com/pd/3127746505234974860)
 - [Android Q（10.0）上IMEI获取不到；Android Q（10.0）上OAID替代IMEI；OAID获取方式](https://blog.csdn.net/Kern_/article/details/107530583)
-- [扒一扒安卓渲染原理](https://blog.csdn.net/qq_34696203/article/details/105815654)
-- [Android App开发基础篇—数据存储(SP和文件)](https://blog.csdn.net/lyklykkk/article/details/56277569)
-- [Android OpenGL ES绘制位图字体](http://blog.csdn.net/jackone12347/article/details/7710990)
-- [Android粒子爆炸效果](http://blog.csdn.net/crazy__chen/article/details/50149619)
-- [Google Mobile Ads SDK for Android](https://developers.google.com/admob/android/quick-start)
-- [常用的android弹出对话框](https://www.cnblogs.com/liudeyun/p/android_1.html)
-- [Android开发——ListView的运用](https://blog.csdn.net/cnicfhnui/article/details/51356741)
-- [Android – Sectioned Headers in ListViews](https://w2davids.wordpress.com/android-sectioned-headers-in-listviews/)
-- 取消Android Button字母自动全部大写：在XML布局中添加：`android:textAllCaps="false"`；或是在Kotlin代码中修改 **`isAllCaps`** 属性。另外还可以在style.xml文件中加入：`<item name="android:textAllCaps">false</item>`。加上这个配置后，就不需要为每个所创建的按钮都去配置一下了。
-- [TextView设置部分文字大小、加粗、倾斜、颜色、背景、分行显示。](https://blog.csdn.net/joshua_love/article/details/53389338)
-- [Android 应用开发（41）---EditText(输入框)详解](https://blog.csdn.net/zhangbijun1230/article/details/82284953)
-- [Android -- Autosizing TextView 自动调整文字大小](https://blog.csdn.net/qq_24382363/article/details/99318544)
-- Android中取消视图焦点并关闭软键盘：
-```kotlin
-// 清除焦点
-view.clearFocus()
-// 关闭输入法
-(getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
-    window.peekDecorView()?.windowToken, InputMethodManager.RESULT_UNCHANGED_SHOWN)
-```
 - Android上将文本数据复制到剪贴板：
 ```kotlin
             val logStr = "hello world message..."
@@ -139,6 +119,26 @@ view.clearFocus()
             catch (e: IOException) {
                 Log.i(null, "File write error: ${e.localizedMessage}")
             }
+```
+- [扒一扒安卓渲染原理](https://blog.csdn.net/qq_34696203/article/details/105815654)
+- [Android App开发基础篇—数据存储(SP和文件)](https://blog.csdn.net/lyklykkk/article/details/56277569)
+- [Android OpenGL ES绘制位图字体](http://blog.csdn.net/jackone12347/article/details/7710990)
+- [Android粒子爆炸效果](http://blog.csdn.net/crazy__chen/article/details/50149619)
+- [Google Mobile Ads SDK for Android](https://developers.google.com/admob/android/quick-start)
+- [常用的android弹出对话框](https://www.cnblogs.com/liudeyun/p/android_1.html)
+- [Android开发——ListView的运用](https://blog.csdn.net/cnicfhnui/article/details/51356741)
+- [Android – Sectioned Headers in ListViews](https://w2davids.wordpress.com/android-sectioned-headers-in-listviews/)
+- 取消Android Button字母自动全部大写：在XML布局中添加：`android:textAllCaps="false"`；或是在Kotlin代码中修改 **`isAllCaps`** 属性。另外还可以在style.xml文件中加入：`<item name="android:textAllCaps">false</item>`。加上这个配置后，就不需要为每个所创建的按钮都去配置一下了。
+- [TextView设置部分文字大小、加粗、倾斜、颜色、背景、分行显示。](https://blog.csdn.net/joshua_love/article/details/53389338)
+- [Android 应用开发（41）---EditText(输入框)详解](https://blog.csdn.net/zhangbijun1230/article/details/82284953)
+- [Android -- Autosizing TextView 自动调整文字大小](https://blog.csdn.net/qq_24382363/article/details/99318544)
+- Android中取消视图焦点并关闭软键盘：
+```kotlin
+// 清除焦点
+view.clearFocus()
+// 关闭输入法
+(getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager).hideSoftInputFromWindow(
+    window.peekDecorView()?.windowToken, InputMethodManager.RESULT_UNCHANGED_SHOWN)
 ```
 - [Android之点击空白处关闭软键盘](https://www.jianshu.com/p/8f4cfeee2caa)
 - [android如何给整个视图view圆角显示](https://blog.csdn.net/hesong1120/article/details/52005895)
