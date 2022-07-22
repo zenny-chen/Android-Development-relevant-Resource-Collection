@@ -116,6 +116,30 @@ view.clearFocus()
             val clipData = ClipData.newPlainText("vulkaninfo", logStr)
             clipboard.setPrimaryClip(clipData)
 ```
+- Android将文件保存到设备外部公共的Doceuments文件夹内：
+```kotlin
+            if(checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(arrayOf(Manifest.permission.WRITE_EXTERNAL_STORAGE), 101)
+            }
+
+            val file = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+            if(file == null) {
+                Log.i(null, "file does not exist!\n")
+                return@setOnClickListener
+            }
+
+            try {
+                val filePath = file.absolutePath + "/mytext.log"
+                Log.i(null, "The file path to be saved: $filePath")
+
+                val fileAccess = RandomAccessFile(filePath, "rw")
+                fileAccess.write(logBuffer, 0, dataLen)
+                fileAccess.close()
+            }
+            catch (e: IOException) {
+                Log.i(null, "File write error: ${e.localizedMessage}")
+            }
+```
 - [Android之点击空白处关闭软键盘](https://www.jianshu.com/p/8f4cfeee2caa)
 - [android如何给整个视图view圆角显示](https://blog.csdn.net/hesong1120/article/details/52005895)
 - [Android ViewPager实现图片标题轮播和点击事件](https://www.cnblogs.com/luhuan/p/8047098.html)
