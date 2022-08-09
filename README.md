@@ -38,6 +38,12 @@ struct stat;
 - [Android性能优化](http://hukai.me/android-performance-patterns/)
 - [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 - [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
+- Android获取当前应用的应用名
+```kotlin
+val pm = context.applicationContext.packageManager
+val pn = context.packageName
+val appName = pm.getApplicationLabel(pm.getApplicationInfo(pn, 0)) as String
+```
 - Android异步消息处理：
 ```kotlin
 import android.os.Handler
