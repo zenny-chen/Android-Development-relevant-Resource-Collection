@@ -130,6 +130,7 @@ resources.displayMetrics.density
 - [Android App开发基础篇—数据存储(SP和文件)](https://blog.csdn.net/lyklykkk/article/details/56277569)
 - [Android OpenGL ES绘制位图字体](http://blog.csdn.net/jackone12347/article/details/7710990)
 - [Android粒子爆炸效果](http://blog.csdn.net/crazy__chen/article/details/50149619)
+- [Can we use Vulkan with Java Activity on Android platform](https://stackoverflow.com/questions/45157950/can-we-use-vulkan-with-java-activity-on-android-platform)
 - [Google Mobile Ads SDK for Android](https://developers.google.com/admob/android/quick-start)
 - [常用的android弹出对话框](https://www.cnblogs.com/liudeyun/p/android_1.html)
 - [Android开发——ListView的运用](https://blog.csdn.net/cnicfhnui/article/details/51356741)
