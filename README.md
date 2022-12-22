@@ -31,7 +31,6 @@
 struct stat;
 ```
 ）
-- [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
 - [掌握 Android 系统架构，看这一篇就够了！](https://www.toutiao.com/a6678854584921752078/)
 - [安卓手机如何打开开发者模式进行usb调试](https://jingyan.baidu.com/album/14bd256e477577bb6d2612cc.html)
 - [Android中关于LogCat的打印](https://zhidao.baidu.com/question/279075586.html)
@@ -262,6 +261,8 @@ class MainActivity : AppCompatActivity() {
 - Android Studio上要剖析GPU性能，得使用[Android GPU Inspector](https://gpuinspector.dev/)。官方介绍文档：[GPU Debugger](http://tools.android.com/tech-docs/gpu-profiler)
 - [分析 Android 耗电原理后，飞书是这样做耗电治理的](https://www.toutiao.com/article/7096085243337130527/)
 - Android Studio中用自带的NDK写C语言获得不同架构平台下的语法高亮：点击左侧边缘处的“Build Variants”，然后选择“Active ABI”，如果选用 **`arm64-v8a`**，则ARM64架构宏下的代码能正常显示高亮；如果选择 **`x86_64`**，则x64宏下的代码会正常显示语法高亮。
+- [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
+- [adb shell top](https://www.cnblogs.com/yejintianming00/p/9339958.html)
 - macOS下adb工具所在路径：`~/Library/Android/sdk/platform-tools/adb`
 - Windows 10下`adb.exe`所在路径：`%USERPROFILE%/AppData/Local/Android/Sdk/platform-tools`
 
