@@ -32,11 +32,6 @@ struct stat;
 ```
 ）
 - [掌握 Android 系统架构，看这一篇就够了！](https://www.toutiao.com/a6678854584921752078/)
-- [安卓手机如何打开开发者模式进行usb调试](https://jingyan.baidu.com/album/14bd256e477577bb6d2612cc.html)
-- [Android中关于LogCat的打印](https://zhidao.baidu.com/question/279075586.html)
-- [Android性能优化](http://hukai.me/android-performance-patterns/)
-- [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
-- [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
 - Android获取当前应用的应用名
 ```kotlin
 val pm = context.applicationContext.packageManager
@@ -256,6 +251,12 @@ class MainActivity : AppCompatActivity() {
 - [Android API广告反作弊需求 Native层获取 bootMark奔溃解析](https://blog.csdn.net/hanshengjian/article/details/120483858)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
 - [Android利用ptrace实现Hook API](https://blog.csdn.net/u013234805/article/details/24796515)
+- [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
+- [Android中关于LogCat的打印](https://zhidao.baidu.com/question/279075586.html)
+- [安卓手机如何打开开发者模式进行usb调试](https://jingyan.baidu.com/album/14bd256e477577bb6d2612cc.html)
+- [Android NDK 调试和分析](https://blog.csdn.net/qxf865618770/article/details/123625606)
+- [Android性能优化](http://hukai.me/android-performance-patterns/)
+- [Android应用优化实践](http://www.csdn.net/article/2015-11-05/2826130-speed-up-your-app)
 - [怎么让 Android 程序一直后台运行，像 QQ 一样不被杀死？](https://blog.csdn.net/gf771115/article/details/77457053)
 - [为什么后台应用切换，图标上有个锁一样的标志？！！](http://bbs.blackshark.com/forum.php?mod=viewthread&tid=103764)
 - Android Studio上要剖析GPU性能，得使用[Android GPU Inspector](https://gpuinspector.dev/)。官方介绍文档：[GPU Debugger](http://tools.android.com/tech-docs/gpu-profiler)
