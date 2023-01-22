@@ -263,7 +263,7 @@ class MainActivity : AppCompatActivity() {
 - [分析 Android 耗电原理后，飞书是这样做耗电治理的](https://www.toutiao.com/article/7096085243337130527/)
 - Android Studio中用自带的NDK写C语言获得不同架构平台下的语法高亮：点击左侧边缘处的“Build Variants”，然后选择“Active ABI”，如果选用 **`arm64-v8a`**，则ARM64架构宏下的代码能正常显示高亮；如果选择 **`x86_64`**，则x64宏下的代码会正常显示语法高亮。
 - [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
-- [adb shell top](https://www.cnblogs.com/yejintianming00/p/9339958.html)
+- [adb shell top](https://www.cnblogs.com/yejintianming00/p/9339958.html)（**`adb shell top -H -p <pid>`**）
 - macOS下adb工具所在路径：`~/Library/Android/sdk/platform-tools/adb`
 - Windows 10下`adb.exe`所在路径：`%USERPROFILE%/AppData/Local/Android/Sdk/platform-tools`
 
