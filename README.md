@@ -9,6 +9,7 @@
 - [使用 Kotlin 开发 Android 应用](https://developer.android.google.cn/kotlin)
 - [Kotlin programming language](https://kotlinlang.org/)
 - Android Studio指定源文件所关联的语法高亮——点击菜单栏的File；选择File Properties -> Associate with File Type...。里面可以自己找一个当前文件格式。
+- Android Sutdio中查看当前源文件所有函数列表：菜单栏的 **Navigate**，点击最下方一栏中的 **File Structure**。
 - [Android NDK使用指南](https://developer.android.google.cn/ndk/guides)
 - [Android NDK示例代码](https://github.com/googlesamples/android-ndk/tree/android-mk)
 - [Android Studio自带NDK的CMake](https://developer.android.google.cn/ndk/guides/cmake)
