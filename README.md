@@ -251,6 +251,7 @@ class MainActivity : AppCompatActivity() {
 - [Android 底层的进程间同步机制](https://www.toutiao.com/i6906734816255934980/)
 - [Android API广告反作弊需求 Native层获取 bootMark奔溃解析](https://blog.csdn.net/hanshengjian/article/details/120483858)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
+- [如何评价拼多多疑似利用漏洞攻击用户手机，窃取竞争对手软件数据，防止自己被卸载？](https://www.zhihu.com/question/587624599/answer/2927765317)
 - [Android利用ptrace实现Hook API](https://blog.csdn.net/u013234805/article/details/24796515)
 - [Android apk反编译工具](http://blog.csdn.net/yanzi1225627/article/details/48215549)
 - [Android中关于LogCat的打印](https://zhidao.baidu.com/question/279075586.html)
