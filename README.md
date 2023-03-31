@@ -186,12 +186,6 @@ view.clearFocus()
 - [三种方式让 Android WebView 支持文件下载](https://blog.csdn.net/suyimin2010/article/details/82915942)
 - [Android解析JSON，你真的需要三方库？](https://www.jianshu.com/p/fd82d3903e0b)
 - [Android zip文件压缩与解压](https://blog.csdn.net/shuaizhigen/article/details/88671079)
-- [Android蓝牙开发（一）之打开蓝牙和设备搜索](https://blog.csdn.net/huangliniqng/article/details/82185983)
-- [Android蓝牙串口通信](https://www.jianshu.com/p/68fda037c336)
-- [Android适配安卓6.0蓝牙通讯实现过程](https://www.jb51.net/article/93769.htm)
-- [Android 低功耗蓝牙的多设备连接与数据接收，简单实现](https://blog.csdn.net/geanwen/article/details/73648721)
-- [android6.0手机蓝牙与ble蓝牙模块通信](https://blog.csdn.net/y_15751004297/article/details/76559836)（发送数据部分搜索`sendDataThread`这个方法实现；接收数据部分搜索`mGattUpdateReceiver`中的`displayData`部分）
-- [BLE中常用的UUID](https://blog.csdn.net/Smile_Qian/article/details/82084232)
 - Android Studio将 **`app/src/main/shaders/`** 目录中所有的GLSL源文件进行编译为spv文件最后 **生成在** **`app/build/intermediates/assets/debug/mergeDebugAssets/shaders/`** 目录中。
 - [使用Android Studio打包生成Jar包的方法(亲测可用)](https://blog.csdn.net/xiayiye5/article/details/79639044)（前半部分值得参考，后面用makeJar的部分在新版的Android Studio中不需要。我们先将当前工程设置为release模式，然后构建项目工程，最后直接在`app/build/intermediates/packaged-classes/release/`目录下就能找到`classes.jar`文件，也就是我们最终生成的jar包。）
 - [Android Studio中添加jar包的方法](https://blog.csdn.net/yushuangping/article/details/81873630)（直接看方法三。另外对于最新版本的Android Studio，如果添加的是aar包，那么不需要选中包然后再右键选择Add As Library，因为aar包默认会加入到项目中。）
@@ -248,6 +242,14 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+- [Android蓝牙开发（一）之打开蓝牙和设备搜索](https://blog.csdn.net/huangliniqng/article/details/82185983)
+- [Android蓝牙串口通信](https://www.jianshu.com/p/68fda037c336)
+- [Android适配安卓6.0蓝牙通讯实现过程](https://www.jb51.net/article/93769.htm)
+- [Android 低功耗蓝牙的多设备连接与数据接收，简单实现](https://blog.csdn.net/geanwen/article/details/73648721)
+- [android6.0手机蓝牙与ble蓝牙模块通信](https://blog.csdn.net/y_15751004297/article/details/76559836)（发送数据部分搜索`sendDataThread`这个方法实现；接收数据部分搜索`mGattUpdateReceiver`中的`displayData`部分）
+- [BLE中常用的UUID](https://blog.csdn.net/Smile_Qian/article/details/82084232)
+- [OpenSL ES播放PCM音频](https://www.toutiao.com/article/7153610070319071758/)
+- [Android OpenSL ES 音频采集与播放](https://www.toutiao.com/article/7216248069187420707/)
 - [Android 底层的进程间同步机制](https://www.toutiao.com/i6906734816255934980/)
 - [Android API广告反作弊需求 Native层获取 bootMark奔溃解析](https://blog.csdn.net/hanshengjian/article/details/120483858)
 - [修改源码实现全局(无需root)注入躲开注入检测](https://bbs.pediy.com/thread-214589.htm)
