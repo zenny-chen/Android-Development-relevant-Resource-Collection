@@ -270,6 +270,7 @@ class MainActivity : AppCompatActivity() {
 - [adb shell top](https://www.cnblogs.com/yejintianming00/p/9339958.html)（**`adb shell top -H -p <pid>`**）
 - macOS下adb工具所在路径：`~/Library/Android/sdk/platform-tools/adb`
 - [MAC系统下完全卸载Android Studio](https://blog.csdn.net/qingpingguo12/article/details/124386360)
+- macOS系统下的Android Studio配置Gradle JDK：菜单栏的 **Android Studio** -> **Preferences...** -> **Build, Execution, Deployment** -> **Gradle**。其中可选择Gradle JDK，最好选择Android Studio自带的JetBrains版本。
 - Windows 10下`adb.exe`所在路径：`%USERPROFILE%/AppData/Local/Android/Sdk/platform-tools`
 
 <br />
