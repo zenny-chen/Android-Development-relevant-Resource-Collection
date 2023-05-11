@@ -269,6 +269,7 @@ class MainActivity : AppCompatActivity() {
 - [用了adb这么久，看了这篇才明白](https://www.toutiao.com/i6760561662891131403/)
 - [adb shell top](https://www.cnblogs.com/yejintianming00/p/9339958.html)（**`adb shell top -H -p <pid>`**）
 - macOS下adb工具所在路径：`~/Library/Android/sdk/platform-tools/adb`
+- [MAC系统下完全卸载Android Studio](https://blog.csdn.net/qingpingguo12/article/details/124386360)
 - Windows 10下`adb.exe`所在路径：`%USERPROFILE%/AppData/Local/Android/Sdk/platform-tools`
 
 <br />
