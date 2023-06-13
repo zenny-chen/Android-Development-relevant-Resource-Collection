@@ -5,6 +5,7 @@
 
 - [Google中国开发者网站](https://developers.google.cn/china/)
 - [小天才开放平台文档](https://developer.okii.com/docs/develop/00-model.html)
+- [DJI 开发者平台](https://developer.dji.com/cn/)
 - [大疆无人机 MobileSDK（遥控器/手机端）开发 v4版](https://blog.csdn.net/weixin_47094733/article/details/130508404)
 - [Understanding Android API levels](https://docs.microsoft.com/en-us/xamarin/android/app-fundamentals/android-api-levels)
 - Android Studio指定源文件所关联的语法高亮——点击菜单栏的File；选择File Properties -> Associate with File Type...。里面可以自己找一个当前文件格式。
