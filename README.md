@@ -327,6 +327,8 @@ class MainActivity : AppCompatActivity() {
 
 其中，以上代码指定了使用CMake 3.18.1版本，以及使用22.1.7171670版本的NDK。
 
+如果用NDK编译C艹代码，那么需要在`Application.mk`中添加`APP_STL := gnustl_static`，否则大部分C艹标准库都无法找到。而如果要用当前LLVM的runtime的STL库的话，可以使用：`APP_STL := c++_static`。
+
 <br />
 
 ## Android Studio中用 build.gradle.kts(Module:app)
@@ -396,10 +398,6 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
 ```
-
-<br />
-
-如果用NDK编译C艹代码，那么需要在`Application.mk`中添加`APP_STL := gnustl_static`，否则大部分C艹标准库都无法找到。而如果要用当前LLVM的runtime的STL库的话，可以使用：`APP_STL := c++_static`。
 
 <br />
 
