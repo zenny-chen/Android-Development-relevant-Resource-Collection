@@ -329,6 +329,76 @@ class MainActivity : AppCompatActivity() {
 
 <br />
 
+## Android Studio中用 build.gradle.kts(Module:app)
+
+[将 build 配置从 Groovy 迁移到 Kotlin](https://developer.android.com/build/migrate-to-kotlin-dsl?hl=zh-cn)
+
+Sample:
+
+```kotlin
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.greengames.glescollection"
+    compileSdk = 33
+
+    defaultConfig {
+        applicationId = "com.greengames.glescollection"
+        minSdk = 29
+        targetSdk = 33
+        versionCode = 1
+        versionName = "1.0"
+
+        externalNativeBuild {
+            cmake {
+                cppFlags += "-std=gnu++20"
+                cFlags += "-std=gnu17"
+            }
+        }
+
+        ndk {
+            abiFilters += listOf("arm64-v8a", "x86_64")
+        }
+    }
+
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+    externalNativeBuild {
+        cmake {
+            path = file("src/main/cpp/CMakeLists.txt")
+            version = "3.22.1"
+        }
+    }
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("com.google.android.material:material:1.8.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+}
+```
+
+<br />
+
 如果用NDK编译C艹代码，那么需要在`Application.mk`中添加`APP_STL := gnustl_static`，否则大部分C艹标准库都无法找到。而如果要用当前LLVM的runtime的STL库的话，可以使用：`APP_STL := c++_static`。
 
 <br />
